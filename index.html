@@ -229,6 +229,19 @@
   .btn-outline { border-color: var(--cyan); color: var(--cyan); }
   .btn-outline::before { background: var(--cyan); }
 
+  /* CV Button — distinct accent */
+  .btn-cv {
+    border-color: #ff9a3c;
+    color: #ff9a3c;
+  }
+  .btn-cv::before { background: #ff9a3c; }
+  .btn-cv:hover { color: #000; }
+  .btn-cv .cv-icon {
+    display: inline-block;
+    margin-right: 0.4rem;
+    font-style: normal;
+  }
+
   /* HERO RIGHT — PHOTO */
   .hero-right {
     flex: 0 0 300px;
@@ -786,6 +799,7 @@
     <div class="hero-ctas">
       <a href="#projects" class="btn">View Projects</a>
       <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      <a href="https://drive.google.com/file/d/12SKyVtneztV3iP5IzF_btVu3aA9gxBJk/view?usp=sharing" class="btn btn-cv" target="_blank" rel="noopener noreferrer"><em class="cv-icon">📄</em>Specialized CV</a>
     </div>
     <div class="hero-stats">
       <div class="stat"><div class="stat-val">2+</div><div class="stat-label">Projects</div></div>
